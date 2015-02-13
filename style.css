@@ -335,3 +335,31 @@ SIDEBAR-FEATURES
 	margin: 0 2px;
 	padding: 5px;
 }
+
+#sidebar-features ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar-features li {
+	height: 70px;
+	padding: 0px 10px;
+}
+
+#sidebar-features h3 {
+	position: relative;
+	left: 120px;
+	top: -66px;
+	font-size: 1.231em;
+	margin: 0;
+}
+
+#sidebar-features p {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: -60px;
+	left: 120px;
+	width: 195px;
+}
