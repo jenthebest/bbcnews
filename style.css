@@ -224,7 +224,7 @@ CONTENT
 	margin-top: -5px;
 }
 
-#content img {
+#headline {
 	width: 384px;
 	height: 216px;
 	margin-top: -15px;
@@ -234,7 +234,25 @@ CONTENT
 .newsitem {
 	position: relative;
 	left: 15px;
-	top: -30px;
-	width: 220px;
+	top: -22px;
+	width: 260px;
 	float: left;
 }
+
+.newsitem li {
+	position: relative;
+	list-style: none;
+	left: -40px;
+	top: -10px;
+	padding-top: 5px;
+
+}
+
+.video {
+	background-image: url("img/triangle.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 23px;
+	margin-left: -4px;
+}
+
