@@ -200,6 +200,11 @@ HOME MENU
 CONTENT
 ******************************************/
 
+.bottom {
+	border-bottom: 1px solid #EDEDED;
+	padding-bottom: 10px;
+}
+
 #content {
 	width: 100%;
 	font-family: arial,helvetica,sans-serif;
@@ -245,7 +250,6 @@ CONTENT
 	left: -40px;
 	top: -10px;
 	padding-top: 5px;
-
 }
 
 .video {
@@ -256,3 +260,78 @@ CONTENT
 	margin-left: -4px;
 }
 
+
+
+/*****************************************
+SIDEBAR-MAGAZINE
+******************************************/
+
+#sidebar-magazine {
+	background-color: #EDEDED;
+	float: right;
+	width: 335px;
+	height: 180px;
+	position: relative;
+	top: -55px;
+}
+
+#sidebar-magazine h2 {
+	color: #4A7194;
+	font-weight: bold;
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	font-size: 1.846em;
+	margin: 0 2px;
+	padding: 5px;
+	opacity: .8;
+}
+
+#sidebar-magazine ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar-magazine li {
+	height: 70px;
+	padding: 0px 10px;
+}
+
+#sidebar-magazine h3 {
+	position: relative;
+	left: 120px;
+	top: -66px;
+	font-size: 1.231em;
+	margin: 0;
+}
+
+#sidebar-magazine p {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: -60px;
+	left: 120px;
+	width: 195px;
+}
+
+
+/*****************************************
+SIDEBAR-FEATURES
+******************************************/
+
+#sidebar-features {
+	background-color: #EDEDED;
+	float: right;
+	width: 335px;
+	height: 600px;
+	position: relative;
+	top: -40px;
+}
+
+#sidebar-features h2 {
+	color: #505050;
+	font-weight: bold;
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	font-size: 1.846em;
+	margin: 0 2px;
+	padding: 5px;
+}
