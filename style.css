@@ -265,6 +265,21 @@ CONTENT
 	margin-left: -4px;
 }
 
+#secondary-content {
+	
+}
+
+#secondary-content img {
+	margin-top: 15px;
+	padding: 15px;
+}
+
+#secondary-content h3 {
+	position: relative;
+	top: -190px;
+	left: 360px;
+}
+
 
 
 /*****************************************
