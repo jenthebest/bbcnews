@@ -137,10 +137,6 @@ NEWS BAR
 TOPIC MENU
 ******************************************/
 
-#topicmenu {
-	
-}
-
 #topicmenu ul {
 	background-color: #3E0C0D;
 	margin-top: -10px;
@@ -159,5 +155,40 @@ TOPIC MENU
 }
 
 #topicmenu li:hover {
+	text-decoration: underline;
+}
+
+.selected {
+	background-color: #EDEDED;
+	color: #505050;
+	padding: 6px 6px 4px 6px !important;
+	margin-left: -3px;
+}
+
+
+
+/*****************************************
+HOME MENU
+******************************************/
+
+#homemenu ul {
+	background-color: #EDEDED;
+	margin-top: -16px;
+	padding: 3px;
+	height: 18px;
+}
+
+#homemenu li {
+	list-style: none;
+	font-size: 0.8em;
+	display: inline;
+	border-right: 1px solid #505050;
+	color: #505050;
+	font-weight: bold;
+	font-size: .78em;
+	padding: 0 4px;
+}
+
+#homemenu li:hover {
 	text-decoration: underline;
 }
