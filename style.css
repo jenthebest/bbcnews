@@ -203,6 +203,11 @@ CONTENT
 .bottom {
 	border-bottom: 1px solid #EDEDED;
 	padding-bottom: 10px;
+	margin-top: -5px;
+}
+
+.bottom img {
+	margin-left: 280px;
 }
 
 #content {
