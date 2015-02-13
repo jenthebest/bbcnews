@@ -10,6 +10,11 @@ body {
 	clear: both;
 }
 
+.fixedwidth {
+	width: 980px;
+	margin: 0 auto;
+}
+
 
 
 /*****************************************
@@ -22,11 +27,6 @@ TOP BAR
 	height: 40px;
 	color: white;
 	font-family: arial,helvetica,sans-serif;
-}
-
-.fixedwidth {
-	width: 1050px;
-	margin: 0 auto;
 }
 
 #logo {
@@ -75,6 +75,7 @@ TOP BAR
 
 #search input {
 	height: 18px;
+	width: 127px;
 	font-weight: bold;
 	border: none;
 	padding: 3px 0 3px 10px;
@@ -117,7 +118,7 @@ NEWS BAR
 	position: relative;
 	text-align: right;
 	top: -22px;
-	left: -40px;
+	left: 0px;
 	font-weight: 550;
 	font-size: .9em;
 }
@@ -151,7 +152,7 @@ TOPIC MENU
 	border-right: 1px solid #990000;
 	font-weight: bold;
 	font-size: .78em;
-	padding: 0 4px;
+	padding: 0 3px;
 }
 
 #topicmenu li:hover {
@@ -191,4 +192,49 @@ HOME MENU
 
 #homemenu li:hover {
 	text-decoration: underline;
+}
+
+
+
+/*****************************************
+CONTENT
+******************************************/
+
+#content {
+	width: 100%;
+	font-family: arial,helvetica,sans-serif;
+	margin-top: 35px;
+	font-family: Arial, Helmet, Freesans, sans-serif;
+	color: #505050;
+	font-size: .8em;
+}
+
+#content a {
+	color: #1F4F82;
+	text-decoration: none;
+}
+
+#content a:hover {
+	text-decoration: underline;
+}
+
+#content h1 {
+	color: #1F4F82;
+	font-size: 2.5em;
+	margin-top: -5px;
+}
+
+#content img {
+	width: 384px;
+	height: 216px;
+	margin-top: -15px;
+	float: left;
+}
+
+.newsitem {
+	position: relative;
+	left: 15px;
+	top: -30px;
+	width: 220px;
+	float: left;
 }
